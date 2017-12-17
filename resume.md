@@ -81,7 +81,7 @@ Jun 2015 -- Present
 *   Utilized Angular and AWS S3 for high functionality providing quick processing while cost-effective.
 
 ### Geocoding Data Report ###
-Feb 2015 -- Nov 2016
+Feb 2015 -- Nov 2016  
 #aws #grails #groovy #postgresql #jenkins
 *   Presented product managers and other stakeholders with the most important, up-to-date product production status in an easily consumable website.
 *   Automatically collected and intelligently predicted quarterly production plans for efficient and minimal quarterly planning meetings.
