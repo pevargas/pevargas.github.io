@@ -59,13 +59,13 @@ Nov 2016 -- Present
 *   Implemented extended functionality based onclient requests.
 
 ### React Photo App ###
-Sep 2016 -- Present
+Sep 2016 -- Present  
 #react #javascript #bootstrap
 *   github.com/pevargas/react-photo-app
 *   Created a single-page photo application while grasping React framework design and best practices.
 
 ### Playing Cards Module ###
-Jun 2016 -- Nov 2016
+Jun 2016 -- Nov 2016  
 #npm #javascript #chai/mocha
 *   github.com/pevargas/playing-cards
 *   Crafted a playing-cards JavaScript module to brush up on modern JavaScript programming best practices.
@@ -73,7 +73,7 @@ Jun 2016 -- Nov 2016
 *   Implemented Chai and Mocha to solidify the viability of the module.
 
 ### Portfolio Website [v5] ###
-Jun 2015 -- Present
+Jun 2015 -- Present  
 #aws #angular #javascript #bootstrap #sass
 *   www.yesthisispatrick.com
 *   Implemented a portfolio website with low maintenance and easy updatability.
