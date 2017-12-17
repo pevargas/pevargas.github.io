@@ -8,10 +8,10 @@ Skills
 ------
 
 ### Languages and Databases ###
-Groovy, Java, JavaScript, Processing, C/C++, HTML5/CSS3, PostgreSQL
+Java, JavaScript, Processing, HTML5/CSS3, PostgreSQL, Couchbase
 
 ### Software, Frameworks, and Utilities ###
-AWS, Jenkins, GitLab, Spock, Grails, Node, npm, Angular, React, Chai/Mocha, SASS, Less, Bootstrap, Illustrator, Photoshop, InDesign
+AWS, Jenkins, Git, Spock, Node, npm, Angular, React, Chai/Mocha, SASS, Less, Bootstrap, Illustrator, Photoshop, InDesign
 
 ### Miscellaneous ###
 Agile Software Development, Interpersonal Skills, Graphic Design
@@ -19,9 +19,19 @@ Agile Software Development, Interpersonal Skills, Graphic Design
 Experience
 ----------
 
+### Associate Software Engineer, MLB Advanced Media / BAMTECH Media ###
+New York, NY  
+Nov 2016 -- Present  
+#java #spring #jersey #node #npm #docker #git #aws #janus
+*   Fixed issues for clients in a timely manner.
+*   Implmented extended functionality based on client requests.
+*   Instructed fellow new team on intriciaces of applications.
+*   Learned the best practices of a highly-available, large-scale application.
+*   Refactored major parts of the applicaiton into smaller microservices.
+
 ### Software Engineer, Pitney Bowes Software ###
-Boulder, CO / Somerset, NJ
-June 2014 -- Present
+Boulder, CO / Somerset, NJ  
+Jun 2014 -- Nov 2016  
 #grails #groovy #java #spock #postgresql #jenkins #git #gitlab #aws #bootstrap
 *   Implemented a status reporting website for stakeholders utilizing the Jenkins API.
 *   Led the team in transition from SVN to Git, providing tools and documentation to make the switch seamless.
@@ -32,7 +42,7 @@ June 2014 -- Present
 
 ### Software Engineering Intern, Pitney Bowes Software ###
 Boulder, CO  
-May 2013 -- May 2014
+May 2013 -- May 2014  
 #grails #java #javascript #less #c/c++ #perl
 *   Improved performance of Geocoding software 10% by implementing Microsoft's Profile-Guided Optimization.
 *   Adapted the CPPUnit test-suite for Unix platforms, applying more thorough and rigorous software preparation.
@@ -42,6 +52,12 @@ May 2013 -- May 2014
 Projects
 --------
 
+### NHL Stats API ###
+Nov 2016 -- Present  
+#java #spring #jersey #aws #puppet #heira
+*   Fixed issues for clients in a timely manner.
+*   Implemented extended functionality based onclient requests.
+
 ### React Photo App ###
 Sep 2016 -- Present
 #react #javascript #bootstrap
@@ -49,7 +65,7 @@ Sep 2016 -- Present
 *   Created a single-page photo application while grasping React framework design and best practices.
 
 ### Playing Cards Module ###
-Jun 2016 -- Present
+Jun 2016 -- Nov 2016
 #npm #javascript #chai/mocha
 *   github.com/pevargas/playing-cards
 *   Crafted a playing-cards JavaScript module to brush up on modern JavaScript programming best practices.
@@ -65,7 +81,7 @@ Jun 2015 -- Present
 *   Utilized Angular and AWS S3 for high functionality providing quick processing while cost-effective.
 
 ### Geocoding Data Report ###
-Feb 2015 -- Present
+Feb 2015 -- Nov 2016
 #aws #grails #groovy #postgresql #jenkins
 *   Presented product managers and other stakeholders with the most important, up-to-date product production status in an easily consumable website.
 *   Automatically collected and intelligently predicted quarterly production plans for efficient and minimal quarterly planning meetings.
@@ -82,12 +98,3 @@ Bachelor of Science, Computer Science, 3.35 GPA
 *   Technology, Arts and Media Minor (Graduated with Honors)
 *   Dean's List, Spring 2014 and Spring 2013, College of Engineering and Applied Science
 *   Dean's List, Spring 2011, College of Arts and Science
-
-Involvements and Leadership
----------------------------
-
-*   Instrumental Music (Fall 2012 -- Fall 2015)
-*   "Ask Me Anything" Volunteer (Fall 2012 -- Spring 2013)
-*   Vice President & Secretary for Engineering Student Group (Fall 2011 -- Spring 2012)
-*   Secretary for Student Advisory Board to Student Resource Center (Spring 2010 -- Fall 2012)
-*   Volunteer for Student Resource Center (Spring 2010 -- Spring 2011)
