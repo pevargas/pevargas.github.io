@@ -1,7 +1,6 @@
 Patrick Vargas
 ==============
 
-www.yesthisispatrick.com  
 patrick@yesthisispatrick.com
 
 Skills
