@@ -23,10 +23,10 @@ New York, NY
 Nov 2016 -- Present  
 #java #spring #jersey #node #npm #docker #git #aws #janus
 *   Fixed issues for clients in a timely manner.
-*   Implmented extended functionality based on client requests.
-*   Instructed fellow new team on intriciaces of applications.
+*   Implemented extended functionality based on client requests.
+*   Instructed fellow new team on intricacies of applications.
 *   Learned the best practices of a highly-available, large-scale application.
-*   Refactored major parts of the applicaiton into smaller microservices.
+*   Refactored major parts of the application into smaller microservices.
 
 ### Software Engineer, Pitney Bowes Software ###
 Boulder, CO / Somerset, NJ  
@@ -55,7 +55,7 @@ Projects
 Nov 2016 -- Present  
 #java #spring #jersey #aws #puppet #heira
 *   Fixed issues for clients in a timely manner.
-*   Implemented extended functionality based onclient requests.
+*   Implemented extended functionality based on client requests.
 
 ### React Photo App ###
 Sep 2016 -- Present  
