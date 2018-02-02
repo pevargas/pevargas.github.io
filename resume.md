@@ -3,6 +3,9 @@ Patrick Vargas
 
 patrick@yesthisispatrick.com
 
+[PDF Version](/vargas-resume-spring-2018.pdf)  
+[Plain Text Version](/resume.md)
+
 Skills
 ------
 
