@@ -23,8 +23,7 @@ New York, NY
 Sep 2017 -- Present  
 #java #spring #jersey #memcached #node #npm #docker #git #aws #janus
 *   Refactored major parts of the application into smaller micro-services.
-*	Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second (projected)
-*	Facilitated performance testing with QA team to vet the application before launch
+*	  Facilitated performance testing with QA team to vet the application before launch.
 
 ### Associate Software Engineer, MLB Advanced Media ###
 New York, NY  
@@ -52,14 +51,15 @@ Projects
 ### Riot Stats API ###  
 Sep 2017 -- Present  
 #java #spring #jersey #memcached #node #npm #docker #aws #janus 
-*	sward.svcs.lolesports.com
-*	
+*	  sward.svcs.lolesports.com
+*	  Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second (projected).
 
 ### NHL Stats API ###  
 Nov 2016 -- Sep 2017  
 #java #spring #jersey #aws #puppet #heira  
-*	qa-statsapi.web.nhl.com/docs
-*   
+*	  qa-statsapi.web.nhl.com/docs
+*   Highly available application, accessed in a variety of facets
+*   Provided support to clients using the API.
 
 ### React Photo App ###  
 Sep 2016 -- Nov 2016  
