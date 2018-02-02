@@ -10,7 +10,7 @@ Skills
 Java, JavaScript, Processing, HTML5/CSS3, PostgreSQL, Couchbase
 
 ### Software, Frameworks, and Utilities ###
-AWS, Jenkins, Git, Spock, Node, npm, Angular, React, Chai/Mocha, SASS, Less, Bootstrap, Illustrator, Photoshop, InDesign
+AWS, Jenkins, Git, Spock, Memcached, Docker, Node, npm, Angular, React, Chai/Mocha, SASS, Less, Bootstrap, Illustrator, Photoshop, InDesign
 
 ### Miscellaneous ###
 Agile Software Development, Interpersonal Skills, Graphic Design
@@ -18,61 +18,65 @@ Agile Software Development, Interpersonal Skills, Graphic Design
 Experience
 ----------
 
-### Associate Software Engineer, MLB Advanced Media / BAMTECH Media ###
+### Associate Software Engineer, BAMTECH Media ###  
 New York, NY  
-Nov 2016 -- Present  
+Sep 2017 -- Present  
+#java #spring #jersey #memcached #node #npm #docker #git #aws #janus
+*   Refactored major parts of the application into smaller micro-services.
+*	Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second (projected)
+*	Facilitated performance testing with QA team to vet the application before launch
+
+### Associate Software Engineer, MLB Advanced Media ###
+New York, NY  
+Nov 2016 -- Sep 2017  
 #java #spring #jersey #node #npm #docker #git #aws #janus
 *   Fixed issues for clients in a timely manner.
 *   Implemented extended functionality based on client requests.
-*   Instructed fellow new team on intricacies of applications.
+*   Instructed new team members on the intricacies of applications.
 *   Learned the best practices of a highly-available, large-scale application.
-*   Refactored major parts of the application into smaller microservices.
 
 ### Software Engineer, Pitney Bowes Software ###
 Boulder, CO / Somerset, NJ  
 Jun 2014 -- Nov 2016  
 #grails #groovy #java #spock #postgresql #jenkins #git #gitlab #aws #bootstrap
 *   Implemented a status reporting website for stakeholders utilizing the Jenkins API.
-*   Led the team in transition from SVN to Git, providing tools and documentation to make the switch seamless.
+*   Led the team in the transition from SVN to Git, providing tools and documentation to make the switch seamless.
 *   Built and automated a SQL testing framework for our data production pipeline.
 *   Setup a Continuous Integration server, using Jenkins, for our project space.
 *   Volunteered as Documentation Lead and Scrum Master to streamline efficiency of day-to-day team minutia.
 *   Created a per-revision, performance-testing and reporting system for a high-profile project.
 
-### Software Engineering Intern, Pitney Bowes Software ###
-Boulder, CO  
-May 2013 -- May 2014  
-#grails #java #javascript #less #c/c++ #perl
-*   Improved performance of Geocoding software 10% by implementing Microsoft's Profile-Guided Optimization.
-*   Adapted the CPPUnit test-suite for Unix platforms, applying more thorough and rigorous software preparation.
-*   Researched the impact of byte order swapping on Big Endian machines.
-*   Automated script testing by creating an output parser employing pipes.
-
 Projects
 --------
 
-### NHL Stats API ###
-Nov 2016 -- Present  
-#java #spring #jersey #aws #puppet #heira
-*   Fixed issues for clients in a timely manner.
-*   Implemented extended functionality based on client requests.
+### Riot Stats API ###  
+Sep 2017 -- Present  
+#java #spring #jersey #memcached #node #npm #docker #aws #janus 
+*	sward.svcs.lolesports.com
+*	
 
-### React Photo App ###
-Sep 2016 -- Present  
-#react #javascript #bootstrap
+### NHL Stats API ###  
+Nov 2016 -- Sep 2017  
+#java #spring #jersey #aws #puppet #heira  
+*	qa-statsapi.web.nhl.com/docs
+*   
+
+### React Photo App ###  
+Sep 2016 -- Nov 2016  
+#react #javascript #bootstrap  
 *   github.com/pevargas/react-photo-app
 *   Created a single-page photo application while grasping React framework design and best practices.
 
-### Playing Cards Module ###
+### Playing Cards Module ###  
 Jun 2016 -- Nov 2016  
-#npm #javascript #chai/mocha
+#npm #javascript #chai/mocha  
 *   github.com/pevargas/playing-cards
 *   Crafted a playing-cards JavaScript module to brush up on modern JavaScript programming best practices.
 *   Learned npm module management to better understand standard JavaScript distribution methodology.
 *   Implemented Chai and Mocha to solidify the viability of the module.
 
 ### Portfolio Website [v5] ###
-Jun 2015 -- Present  
+Jun 2015 -- Nov 2016
 #aws #angular #javascript #bootstrap #sass
 *   www.yesthisispatrick.com
 *   Implemented a portfolio website with low maintenance and easy updatability.
