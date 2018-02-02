@@ -26,7 +26,7 @@ New York, NY
 Sep 2017 -- Present  
 #java #spring #jersey #memcached #node #npm #docker #git #aws #janus
 *   Refactored major parts of the application into smaller micro-services.
-*	  Facilitated performance testing with QA team to vet the application before launch.
+*   Facilitated performance testing with QA team to vet the application before launch.
 
 ### Associate Software Engineer, MLB Advanced Media ###
 New York, NY  
@@ -42,7 +42,7 @@ Boulder, CO / Somerset, NJ
 Jun 2014 -- Nov 2016  
 #grails #groovy #java #spock #postgresql #jenkins #git #gitlab #aws #bootstrap
 *   Implemented a status reporting website for stakeholders utilizing the Jenkins API.
-*   Led the team in the transition from SVN to Git, providing tools and documentation to make the switch seamless.
+*   Led my team in the transition from SVN to Git, providing tools and documentation to make the switch seamless.
 *   Built and automated a SQL testing framework for our data production pipeline.
 *   Setup a Continuous Integration server, using Jenkins, for our project space.
 *   Volunteered as Documentation Lead and Scrum Master to streamline efficiency of day-to-day team minutia.
@@ -53,15 +53,15 @@ Projects
 
 ### Riot Stats API ###  
 Sep 2017 -- Present  
-#java #spring #jersey #memcached #node #npm #docker #aws #janus 
-*	  sward.svcs.lolesports.com
-*	  Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second (projected).
+#java #spring #jersey #memcached #node #npm #docker #aws #janus  
+*   sward.svcs.lolesports.com
+*   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second (projected).
 
 ### NHL Stats API ###  
 Nov 2016 -- Sep 2017  
 #java #spring #jersey #aws #puppet #heira  
-*	  qa-statsapi.web.nhl.com/docs
-*   Highly available application, accessed in a variety of facets
+*   qa-statsapi.web.nhl.com/docs
+*   Highly available application, accessed in a variety of devices.
 *   Provided support to clients using the API.
 
 ### React Photo App ###  
@@ -82,7 +82,7 @@ Jun 2016 -- Nov 2016
 Jun 2015 -- Nov 2016
 #aws #angular #javascript #bootstrap #sass
 *   www.yesthisispatrick.com
-*   Implemented a portfolio website with low maintenance and easy updatability.
+*   Implemented a portfolio website with low maintenance and easy modification.
 *   Incorporated well-maintained libraries and packages for quick uptime.
 *   Utilized Angular and AWS S3 for high functionality providing quick processing while cost-effective.
 
