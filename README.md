@@ -1,11 +1,7 @@
-
 Patrick Vargas [![Website](https://img.shields.io/badge/yes-this_is_patrick-00A5C9.svg)](http://www.yesthisispatrick.com)
 ==============
 
 patrick@yesthisispatrick.com
-
-[PDF Version](/vargas-resume-spring-2018.pdf)  
-[Plain Text Version](/README.md)
 
 Skills
 ------
