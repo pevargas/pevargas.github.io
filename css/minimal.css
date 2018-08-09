@@ -1,0 +1,192 @@
+.blue  { color: #00A5C9; }
+.white { color: #f0fcff; }
+.black { color: #001418; }
+.on    { background-color: rgba( 0, 165, 201, 0.8 ); }
+
+/* START Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END Reset */
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 11pt;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #001418;
+    text-align: left;
+    background-color: #fff;
+}
+
+a, a:link {
+  color: #001418;
+}
+a:hover, a:active{
+  color: #17d5ff;
+  text-decoration: none;
+}
+a:visited, {
+  color: #556e74;
+}
+
+article {
+   width: 1024px;
+   margin: 0 auto;
+}
+
+section {
+  margin-left: 2em;
+  padding: 0.5em;
+  padding-top: 0em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-left: 2px solid #00A5C9;
+}
+
+section.title {
+  margin-top: 0;
+  border: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+  color: #00A5C9;
+  font-weight: 1000;
+  width: 100%;
+}
+
+h1:before {
+    background-image: url(../images/vargas-logo.png);
+    background-size: cover;
+    display: block;
+    height: 1em;
+    width: 1em;
+    content: "logo";
+    color: transparent;
+    position: relative;
+    float: left;
+    margin-left: -0.5em;
+    margin-top: 0.3em;
+}
+
+h2 {
+  margin-top: 0.1em;
+  margin-left: -2.1em;
+  margin-right: -1.5em;
+  position: relative;
+  float: left;
+  display: block;
+  color: #001418;
+  font-weight: bolder;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+h3 {
+  width: 100%;
+  color: #00A5C9;
+  font-weight: 800;
+  /*border-bottom: 1px dotted #00A5C9;*/
+}
+.action-items li {
+  list-style-type: none;
+}
+.action-items li::before {
+  content: "\00bb";
+  color: #556e74;
+  font-weight: bolder;
+  margin-right: 0.5em;
+}
+.languages li::before {
+  content: "#";
+}
+.languages li {
+    color: #f0fcff;
+    background-color: #00A5C9;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10em;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.location, time, .contact {
+  margin-top: -1.5em;
+  position: relative;
+  font-weight: bolder;
+}
+.contact {
+    margin-top: -4em;
+    text-align: right;
+    font-weight: 1000;
+    color: #00A5C9;
+    font-size: 1.5em;
+}
+
+.location {
+  color: #556e74;
+  font-style: italic;
+  margin-left: 50%;
+  font-weight: normal;
+  float: left;
+}
+
+time, .contact {
+  float: right;
+}
+
+.company {
+  color: #556e74;
+  font-weight: normal;
+}
