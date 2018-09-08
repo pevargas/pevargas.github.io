@@ -18,10 +18,15 @@ Agile Software Development, Interpersonal Skills, Graphic Design
 Experience
 ----------
 
+### Software Engineer, Tremor Video DSP ###
+New York, NY
+Sep 2018 -- Present
+#scala #airflow #python
+
 ### Associate Software Engineer, Disney Streaming Services ###
 (Previously BAMTECH Media, Previously MLB Advanced Media)  
 New York, NY  
-Nov 2016 -- Present  
+Nov 2016 -- Aug 2018  
 #java #spring #jersey #memcached #node #npm #docker #git #aws #jenkins #groovy
 *   Led team in constructing a new shared Jenkins library.
 *   Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).
