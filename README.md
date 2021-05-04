@@ -7,21 +7,21 @@ Skills
 ------
 
 ### Languages and Databases ###
-Java, Groovy, PostgreSQL
+Scala (preferred), Java, Python, Groovy, PostgreSQL, MySQL, Vertica
 
 ### Software, Frameworks, and Utilities ###
-AWS, Docker, Jenkins, Git, Maven, Spock, Memcached
-
-### Miscellaneous ###
-Agile Software Development, Interpersonal Skills, Graphic Design
+Scala Play Framework, AWS, Ansible, Docker, Jenkins, PySpark, Git, GitLabCI, DataDog
 
 Experience
 ----------
 
-### Software Engineer, Tremor Video DSP ###
-New York, NY
-Sep 2018 -- Present
-#scala #airflow #python
+### Software Engineer, Tremor Video ###
+New York, NY  
+Sep 2018 -- Present  
+#scala #airflow #python #playframework #docker
+*   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
+*   Created application to help internal sales operations make better informed decisions on campaign efficiency.
+*   Lead a team of international developers to enhance the overall system with new functionality and sales opportunities.
 
 ### Associate Software Engineer, Disney Streaming Services ###
 (Previously BAMTECH Media, Previously MLB Advanced Media)  
@@ -30,7 +30,7 @@ Nov 2016 -- Aug 2018
 #java #spring #jersey #memcached #node #npm #docker #git #aws #jenkins #groovy
 *   Led team in constructing a new shared Jenkins library.
 *   Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).
-*   Refactored major parts of the application into smaller micro-services.
+*   Re-factored major parts of the application into smaller micro-services.
 *   Facilitated performance testing with QA team to vet the application before launch.
 *   Fixed issues for clients in a timely manner.
 *   Implemented extended functionality based on client requests.
@@ -38,7 +38,7 @@ Nov 2016 -- Aug 2018
 *   Learned the best practices of a highly-available, large-scale application.
 
 ### Software Engineer, Pitney Bowes Software ###
-Boulder, CO / Somerset, NJ  
+Boulder, CO  
 Jun 2014 -- Nov 2016  
 #grails #groovy #java #spock #postgresql #jenkins #git #gitlab #aws #bootstrap
 *   Implemented a status reporting website for stakeholders utilizing the Jenkins API.
@@ -51,11 +51,18 @@ Jun 2014 -- Nov 2016
 Projects
 --------
 
-### Minesweeper Clone ###  
-Aug 2018 -- Present  
-#java #junit #maven #travisci 
-*   github.com/pevargas/minesweeper
-*   Created a Minesweeper CLI game for fun.
+### Historian ###
+Jun 2019 -- Sep 2020
+#scala #playframework #python
+*   Created application to help sale operation team query database for historical information.
+*   Built system to store data compactly for quicker retrieval.
+
+### Airflow Stabilization Project ###
+Sep 2018 -- Jun 2019
+#python #airflow #pyspark #datadog
+*   Stabilized production changes through implementing software release best practices and version control.
+*   Built framework for Data Science to easily implement machine learning algorithms in PySpark.
+*   Developed dashboard and monitors to better understand at a glance the health and spend of the system. 
 
 ### Shared Jenkins Library ###  
 Jul 2017 -- Present  
@@ -80,14 +87,6 @@ Nov 2016 -- May 2017
 *   Highly available application, accessed in a variety of devices.
 *   Provided support to clients using the API.
 *   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.
-
-### Playing Cards Module ###  
-Jun 2016 -- Nov 2016  
-#npm #javascript #chai/mocha #travisci  
-*   github.com/pevargas/playing-cards
-*   Crafted a playing-cards JavaScript module to brush up on modern JavaScript programming best practices.
-*   Learned npm module management to better understand standard JavaScript distribution methodology.
-*   Implemented Chai and Mocha to solidify the viability of the module.
 
 ### Geocoding Data Report ###
 Feb 2015 -- Nov 2016  
