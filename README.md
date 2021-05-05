@@ -18,7 +18,7 @@ Experience
 ### Software Engineer, Tremor Video DSP ###
 New York, NY  
 Sep 2018 -- Present  
-#scala #airflow #python #playframework #docker
+#scala #play-framework #adtech #python #spark #machine-learning #neural-network #kubernetes #airflow
 *   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
 *   Created application to help internal sales operations make better informed decisions on campaign efficiency.
 *   Lead a team of international developers to enhance the platform with new functionality and sales opportunities.
