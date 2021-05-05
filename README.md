@@ -15,13 +15,14 @@ Scala Play Framework, AWS, Ansible, Docker, Jenkins, PySpark, Git, GitLabCI, Dat
 Experience
 ----------
 
-### Software Engineer, Tremor Video ###
+### Software Engineer, Tremor Video DSP ###
 New York, NY  
 Sep 2018 -- Present  
 #scala #airflow #python #playframework #docker
 *   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
 *   Created application to help internal sales operations make better informed decisions on campaign efficiency.
-*   Lead a team of international developers to enhance the overall system with new functionality and sales opportunities.
+*   Lead a team of international developers to enhance the platform with new functionality and sales opportunities.
+*   Worked on high-trafficked, real-time bidding application which served millions of requests per second.
 
 ### Associate Software Engineer, Disney Streaming Services ###
 (Previously BAMTECH Media, Previously MLB Advanced Media)  
@@ -51,11 +52,13 @@ Jun 2014 -- Nov 2016
 Projects
 --------
 
-### Historian ###
+### Historian / Forecaster ###
 Jun 2019 -- Sep 2020
 #scala #playframework #python
-*   Created application to help sale operation team query database for historical information.
+*   Created application to help sales operation team query database for historical information.
 *   Built system to store data compactly for quicker retrieval.
+*   Lead a team to build a forecaster based on the historical data to help make our platform competitive.
+*   Architected the api for integration with other apps.
 
 ### Airflow Stabilization Project ###
 Sep 2018 -- Jun 2019
