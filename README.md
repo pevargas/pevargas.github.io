@@ -79,14 +79,6 @@ Jul 2017 -- Aug 2018
 *   Improved overall code quality with automated SonarQube analysis on pull requests. 
 *   Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.
 
-### Image Resolver Library ###  
-#### Disney Streaming Services ####
-Aug 2017 - Nov 2017  
-#node #npm #imagemagick #express #s3 #promises #bluebirdjs  
-*   Designed and built image resolving micro-service for League of Legends (LoL) product.
-*   Served up amalgamation of images as a 302 redirect to ease front-end bandwidth concerns.
-*   Saved on resource throttling but utilizing AWS S3 as an image "cache"
-
 ### Stats API ###  
 #### Disney Streaming Services ####
 Nov 2016 -- May 2017  
