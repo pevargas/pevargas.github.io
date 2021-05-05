@@ -68,7 +68,7 @@ Sep 2018 -- Jun 2019
 *   Developed dashboard and monitors to better understand at a glance the health and spend of the system. 
 
 ### Shared Jenkins Library ###  
-Jul 2017 -- Present  
+Jul 2017 -- Aug 2018  
 #jenkins #groovy #sonarqube #mvn  
 *   Architected a shared Jenkins library to be used by all teams in organization.
 *   Lead the direction of implementation for team members.
