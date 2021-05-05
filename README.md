@@ -53,21 +53,24 @@ Projects
 --------
 
 ### Historian / Forecaster ###
-Jun 2019 -- Sep 2020
-#scala #playframework #python
+#### Tremor Video DSP ####
+Jun 2019 -- Sep 2020  
+#scala #playframework #python  
 *   Created application to help sales operation team query database for historical information.
 *   Built system to store data compactly for quicker retrieval.
 *   Lead a team to build a forecaster based on the historical data to help make our platform competitive.
 *   Architected the api for integration with other apps.
 
 ### Airflow Stabilization Project ###
-Sep 2018 -- Jun 2019
-#python #airflow #pyspark #datadog
+#### Tremor Video DSP ####
+Sep 2018 -- Jun 2019  
+#python #airflow #pyspark #datadog  
 *   Stabilized production changes through implementing software release best practices and version control.
 *   Built framework for Data Science to easily implement machine learning algorithms in PySpark.
 *   Developed dashboard and monitors to better understand at a glance the health and spend of the system. 
 
 ### Shared Jenkins Library ###  
+#### Disney Streaming Services ####
 Jul 2017 -- Aug 2018  
 #jenkins #groovy #sonarqube #mvn  
 *   Architected a shared Jenkins library to be used by all teams in organization.
@@ -77,6 +80,7 @@ Jul 2017 -- Aug 2018
 *   Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.
 
 ### Image Resolver Library ###  
+#### Disney Streaming Services ####
 Aug 2017 - Nov 2017  
 #node #npm #imagemagick #express #s3 #promises #bluebirdjs  
 *   Designed and built image resolving micro-service for League of Legends (LoL) product.
@@ -84,6 +88,7 @@ Aug 2017 - Nov 2017
 *   Saved on resource throttling but utilizing AWS S3 as an image "cache"
 
 ### Stats API ###  
+#### Disney Streaming Services ####
 Nov 2016 -- May 2017  
 #java #spring #aws #memcached  
 *   API Built for National Hockey League (NHL), Major League Soccer (MLS) and LoL.
@@ -92,6 +97,7 @@ Nov 2016 -- May 2017
 *   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.
 
 ### Geocoding Data Report ###
+#### Pitney Bowes Software ####
 Feb 2015 -- Nov 2016  
 #aws #grails #groovy #postgresql #jenkins
 *   Presented product managers and other stakeholders with the most important, up-to-date product production status in an easily consumable website.
