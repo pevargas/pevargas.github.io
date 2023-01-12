@@ -7,22 +7,23 @@ Skills
 ------
 
 ### Languages and Databases ###
-Scala (preferred), Java, Python, Groovy, PostgreSQL, MySQL, Vertica
+Scala (preferred), Java, PostgreSQL, MySQL, Vertica
 
 ### Software, Frameworks, and Utilities ###
-Scala Play Framework, AWS, Ansible, Docker, Jenkins, PySpark, Git, GitLabCI, DataDog
+Kafka, Docker, Kubernetes, Protobuf, Scala Play Framework, Git, GitLabCI, Jenkins, DataDog
 
 Experience
 ----------
 
-### Software Engineer, Tremor Video DSP ###
+### Software Engineer, Tremor Video ###
 New York, NY  
 Sep 2018 -- Present  
-#scala #play-framework #adtech #python #spark #machine-learning #neural-network #kubernetes #airflow
+#scala #kafka #docker #play-framework #adtech #python #kubernetes #airflow
 *   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
 *   Created application to help internal sales operations make better informed decisions on campaign efficiency.
 *   Lead a team of international developers to enhance the platform with new functionality and sales opportunities.
 *   Worked on high-trafficked, real-time bidding application which served millions of requests per second.
+*   Architected and implemented a supply-sampling system to assist in campaign runtime analysis and customer assistance.
 
 ### Associate Software Engineer, Disney Streaming Services ###
 (Previously BAMTECH Media, Previously MLB Advanced Media)  
@@ -52,8 +53,16 @@ Jun 2014 -- Nov 2016
 Projects
 --------
 
+### Registrar ###
+### Tremor Video ###
+May 2022 -- Sep 2022
+#scala #kafka #protobuf #http4s #fs2-kafka
+*   Architected an app to consume kafka messages and store the results for later use
+*   Sampled bidrequest messages for better analysis of the overall supply
+*   Lead small team to implement design for use at scale
+
 ### Historian / Forecaster ###
-#### Tremor Video DSP ####
+#### Tremor Video ####
 Jun 2019 -- Sep 2020  
 #scala #playframework #python  
 *   Created application to help sales operation team query database for historical information.
@@ -62,7 +71,7 @@ Jun 2019 -- Sep 2020
 *   Architected the api for integration with other apps.
 
 ### Airflow Stabilization Project ###
-#### Tremor Video DSP ####
+#### Tremor Video ####
 Sep 2018 -- Jun 2019  
 #python #airflow #pyspark #datadog  
 *   Stabilized production changes through implementing software release best practices and version control.
@@ -87,14 +96,6 @@ Nov 2016 -- May 2017
 *   Highly available application, accessed in a variety of devices.
 *   Provided support to clients using the API.
 *   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.
-
-### Geocoding Data Report ###
-#### Pitney Bowes Software ####
-Feb 2015 -- Nov 2016  
-#aws #grails #groovy #postgresql #jenkins
-*   Presented product managers and other stakeholders with the most important, up-to-date product production status in an easily consumable website.
-*   Automatically collected and intelligently predicted quarterly production plans for efficient and minimal quarterly planning meetings.
-*   Provided automated, up-to-date, detailed information concerning specific product information for use by customer service representatives and engineers.
 
 Education
 ---------
