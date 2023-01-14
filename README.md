@@ -20,9 +20,8 @@ New York, NY
 Sep 2018 -- Present  
 #scala #kafka #docker #play-framework #adtech #python #kubernetes #airflow
 *   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
-*   Created application to help internal sales operations make better informed decisions on campaign efficiency.
 *   Lead a team of international developers to enhance the platform with new functionality and sales opportunities.
-*   Worked on high-trafficked, real-time bidding application which served millions of requests per second.
+*   Worked on high-trafficked, real-time bidding application which served 300k requests per second.
 *   Architected and implemented a supply-sampling system to assist in campaign runtime analysis and customer assistance.
 
 ### Associate Software Engineer, Disney Streaming Services ###
