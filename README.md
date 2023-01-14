@@ -18,7 +18,7 @@ Experience
 ### Software Engineer, Tremor Video ###
 New York, NY  
 Sep 2018 -- Present  
-#scala #kafka #docker #play-framework #adtech #python #kubernetes #airflow
+#scala #kafka #docker #play-framework #adtech #python #kubernetes
 *   Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.
 *   Lead a team of international developers to enhance the platform with new functionality and sales opportunities.
 *   Worked on high-trafficked, real-time bidding application which served 300k requests per second.
@@ -56,9 +56,9 @@ Projects
 ### Tremor Video ###
 May 2022 -- Sep 2022
 #scala #kafka #protobuf #http4s #fs2-kafka
-*   Architected an app to consume kafka messages and store the results for later use
-*   Sampled bidrequest messages for better analysis of the overall supply
-*   Lead small team to implement design for use at scale
+*   Architected an app to consume kafka messages and store the results for later use.
+*   Sampled bidrequest messages for better analysis of the overall supply.
+*   Lead small team to implement design for use at scale.
 
 ### Historian / Forecaster ###
 #### Tremor Video ####
@@ -68,14 +68,6 @@ Jun 2019 -- Sep 2020
 *   Built system to store data compactly for quicker retrieval.
 *   Lead a team to build a forecaster based on the historical data to help make our platform competitive.
 *   Architected the api for integration with other apps.
-
-### Airflow Stabilization Project ###
-#### Tremor Video ####
-Sep 2018 -- Jun 2019  
-#python #airflow #pyspark #datadog  
-*   Stabilized production changes through implementing software release best practices and version control.
-*   Built framework for Data Science to easily implement machine learning algorithms in PySpark.
-*   Developed dashboard and monitors to better understand at a glance the health and spend of the system. 
 
 ### Shared Jenkins Library ###  
 #### Disney Streaming Services ####
