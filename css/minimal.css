@@ -80,12 +80,8 @@ article {
 }
 
 section {
-  margin-left: 2em;
-  padding: 0.5em;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  margin-top: 0.5em;
-  /* margin-bottom: 0.5em; */
+  margin: 0.5em 2em;
+  padding: 0em 0.5em;
   border-left: 2px solid #00A5C9;
 }
 
@@ -131,19 +127,21 @@ h2 {
 h3 {
   width: 100%;
   color: #00A5C9;
-  font-weight: 800;
+  font-weight: bold;
   margin-top: 0.1em;
 }
 
 h4 {
   color: #556e74;
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic; 
 }
 
 section section h3 {
   color: #556e74;
-  width: 0%; 
+  font-weight: bold;
+  width: 0%;
+  padding-left: 0.25em;
 }
 
 h2, section section h3 {
@@ -154,10 +152,6 @@ h2, section section h3 {
   display: block;
   writing-mode: vertical-lr;
   text-orientation: mixed;
-}
-
-.action-items li {
-  list-style-type: none;
 }
 
 .action-items li::before {
@@ -196,7 +190,7 @@ h2, section section h3 {
 }
 
 .contact {
-    margin-top: -4em;
+    margin-top: -3em;
     text-align: right;
     font-weight: 1000;
     color: #00A5C9;
@@ -218,9 +212,4 @@ time, .contact {
 .company {
   color: #556e74;
   font-weight: normal;
-}
-
-h1 .location {
-  font-size: 0.3em;
-  float: right;
 }
