@@ -1,7 +1,7 @@
 Patrick Vargas [![Website](https://img.shields.io/badge/yes-this_is_patrick-00A5C9.svg)](http://www.yesthisispatrick.com)
 ==============
 
-Golden Triange, Denver, CO
+Golden Triange, Denver, CO  
 patrick@yesthisispatrick.com
 
 Experience
@@ -10,7 +10,7 @@ Experience
 ### Senior Software Engineer, Tremor Video ###
 New York, NY  
 Sep 2018 -- Present  
-#scala #kafka #protobuf #http4s #fs2-kafka #adtech #python #docker kubernetes
+*   Tech: scala, kafka, protobuf, http4s, fs2-kafka, adtech, python, docker kubernetes  
 *   Worked on bidding application to serve 300k requests per second.
 *   Implemented various campaign filters, such as city and audio targeting, which generated $5M in 2021.
 *   Architected and implemented a supply-sampling system to assist in campaign runtime analysis for customers.
@@ -18,20 +18,20 @@ Sep 2018 -- Present
 
 #### Projects ####
 *  Registrar
-    +   #scala #kafka #protobuf #http4s #fs2-kafka
+    +   Tech: scala, kafka, protobuf, http4s, fs2-kafka
     +   Architected an app to sample supply to better identify issues in delivery through kafka and a lean scala app.
 
 * Historian / Forecaster
-    +   #scala #play-framework #python
+    +   Tech: scala, play-framework, python
     +   Created application to help sales/operation teams lookup historical information to fine-tune delivery of campaigns.
     +   Built pipeline to transform supply data into a bitmap-style database for quicker query times.
     +   Designed and implemented the API for integration with other apps.
 
 ### Software Engineer, Disney Streaming Services ###
-New York, NY
-Nov 2016 -- Aug 2018
-Previously Major League Baseball (MLB)
-#java #spring #jersey #memcached #node #docker #aws #groovy #graphql
+New York, NY  
+Nov 2016 -- Aug 2018  
+Previously Major League Baseball (MLB)  
+*   Tech: java, spring, jersey, memcached, node, docker, aws, groovy, graphql
 *   Led team in constructing a new shared CI library for organization's compliance.
 *   Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).
 *   Refactored major parts of the application into smaller micro-services.
@@ -42,21 +42,21 @@ Previously Major League Baseball (MLB)
 
 #### Projects ####
 *   Shared Jenkins Library
-    +   #jenkins #groovy #sonarqube #mvn
+    +   Tech: jenkins, groovy, sonarqube, mvn
     +   Led the direction of implementation for team members.
     +   Improved overall code quality with automated SonarQube analysis on pull requests.
     +   Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.
 
 *   Stats API
-    +   #java #spring #aws #memcached
+    +   Tech: java, spring, aws, memcached
     +   API built for National Hockey League (NHL), Major League Soccer (MLS) and League of Legends.
     +   Highly available application, accessed in a variety of devices.
     +   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.
 
 ### Software Engineer, Pitney Bowes Software ###
-Boulder, CO
-Jun 2014 -- Nov 2016
-#grails #groovy #java #spock #postgresql #jenkins #aws
+Boulder, CO  
+Jun 2014 -- Nov 2016  
+*   Tech: grails, groovy, java, spock, postgresql, jenkins, aws
 *   Implemented a status reporting website for stakeholders utilizing the Jenkins API.
 *   Led my team in the transition from SVN to Git, providing tools and documentation to make the switch seamless.
 *   Built and automated a SQL testing framework for our data production pipeline.
@@ -66,7 +66,7 @@ Jun 2014 -- Nov 2016
 
 #### Projects ####
 *   Geocoding Data Report
-    +   #aws #grails #groovy #postgresql #jenkins
+    +   Tech: aws, grails, groovy, postgresql, jenkins
     +   Presented product managers and other stakeholders with the most up-to-date product production status.
     +   Automatically collected and intelligently predicted quarterly production plans for efficient planning meetings.
     +   Provided automated information concerning specific product builds for use by sales and engineers.
