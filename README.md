@@ -7,7 +7,7 @@ patrick@yesthisispatrick.com
 Experience
 ----------
 
-### Senior Software Engineer, Tremor Video ###
+### Software Engineer II, Tremor Video ###
 New York, NY  
 Sep 2018 -- Present  
 *   Tech: scala, kafka, protobuf, http4s, fs2-kafka, adtech, python, docker kubernetes  
