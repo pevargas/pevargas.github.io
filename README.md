@@ -11,7 +11,7 @@ Experience
 New York, NY (Remote)  
 Sep 2018 -- Present  
 Previously Tremor Video  
-*   Tech: scala, kafka, protobuf, http4s, fs2-kafka, python, docker, kubernetes, grafana, datadog  
+*   Tech: scala, java, kafka, protobuf, http4s, fs2-kafka, python, docker, kubernetes, grafana, datadog  
 *   Worked on bidding application to serve 2mm requests per second.
 *   Implemented various campaign filters, such as city and audio targeting, which generated $5M in 2021.
 *   Architected and implemented a supply-sampling system to assist in campaign runtime analysis for customers.
@@ -35,7 +35,7 @@ Previously Major League Baseball (MLB)
 *   Tech: java, spring, jersey, memcached, node, docker, aws, groovy, graphql
 *   Led team in constructing a new shared CI library for organization's compliance.
 *   Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).
-*   Refactored major parts of the application into smaller micro-services.
+*   Refactored major parts of the application into smaller microservices.
 *   Facilitated performance testing with QA team to vet applications before launch.
 *   Fixed issues for clients in a timely manner.
 *   Implemented and extended functionality based on client requests.
@@ -52,7 +52,7 @@ Previously Major League Baseball (MLB)
     +   Tech: java, spring, aws, memcached
     +   API built for National Hockey League (NHL), Major League Soccer (MLS) and League of Legends.
     +   Highly available application, accessed in a variety of devices.
-    +   Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.
+    +   Used Memcached to allow for 800k concurrent users, at 1k messages per second.
 
 ### Software Engineer, Pitney Bowes Software ###
 Boulder, CO  
