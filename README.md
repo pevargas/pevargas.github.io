@@ -1,17 +1,18 @@
 Patrick Vargas [![Website](https://img.shields.io/badge/yes-this_is_patrick-00A5C9.svg)](http://www.yesthisispatrick.com)
 ==============
 
-Golden Triange, Denver, CO  
+Golden Triangle, Denver, CO  
 patrick@yesthisispatrick.com
 
 Experience
 ----------
 
-### Software Engineer II, Tremor Video ###
-New York, NY  
+### Software Engineer II, Nexxen ###
+New York, NY (Remote)  
 Sep 2018 -- Present  
-*   Tech: scala, kafka, protobuf, http4s, fs2-kafka, adtech, python, docker kubernetes  
-*   Worked on bidding application to serve 300k requests per second.
+Previously Tremor Video  
+*   Tech: scala, kafka, protobuf, http4s, fs2-kafka, python, docker, kubernetes, grafana, datadog  
+*   Worked on bidding application to serve 2mm requests per second.
 *   Implemented various campaign filters, such as city and audio targeting, which generated $5M in 2021.
 *   Architected and implemented a supply-sampling system to assist in campaign runtime analysis for customers.
 *   Led and Coordinated globally mixed, international teams using organizational, clerical, and project planning best practices.
@@ -78,8 +79,7 @@ Skills
 Scala (preferred), Java, PostgreSQL, MySQL, Vertica
 
 ### Software, Frameworks, and Utilities ###
-Kafka, Docker, Kubernetes, Protobuf, Scala Play Framework, SonarQube, Git, GitLabCI, Jenkins, DataDog
-
+Kafka, Docker, Kubernetes, Protobuf, Scala Play Framework, SonarQube, Git, Jenkins, DataDog, Grafana
 
 Education
 ---------
