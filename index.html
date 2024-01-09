@@ -12,74 +12,114 @@
   <section class="title">
     <h1>Patrick E. Vargas</h1>
     <ul class="action-items no-print">
-      <li><a href="./vargas-resume-summer-2021.pdf">PDF Version</a></li>
+      <li><a href="./vargas-resume-spring-2023.pdf">PDF Version</a></li>
       <li><a href="./README.md">Plain Text</a></li>
     </ul>
   </section>
 
   <section>
-    <h2>Skills</h2>
-    <h3>Languages and Databases</h3>
-    <ul class="action-items">
-      <li>Scala (preferred), Java, Python, Groovy, PostgreSQL, MySQL, Vertica</li>
-    </ul>
-
-    <h3>Software, Frameworks, and Utilities</h3>
-    <ul class="action-items">
-      <li>Scala Play Framework, AWS, Ansible, Docker, Jenkins, PySpark, Git, GitLabCI, DataDog</li>
-    </ul>
-  </section>
-
-  <section>
     <h2>Experience</h2>
-    <h3>Software Engineer <span class="company">Tremor Video DSP</span></h3>
+    <h3>Software Engineer II <span class="company">Tremor Video</span></h3>
     <span class="location">New York, NY</span>
     <time>Aug 2018 -- Present</time>
     <ul class="languages">
       <li>scala</li> 
-      <li>play-framework</li>
+      <li>kafka</li>
+      <li>protobuf</li>
+      <li>http4s</li>
+      <li>fs2-kafka</li>
       <li>adtech</li> 
       <li>python</li> 
-      <li>spark</li> 
-      <li>machine-learning</li>
-      <li>neural-network</li> 
+      <li>docker</li>
       <li>kubernetes</li> 
-      <li>airflow</li>
     </ul>
     <ul class="action-items">
-      <li>Implemented Data Science machine learning into production through daily model builds using Airflow and PySpark.</li>
-      <li>Created application to help internal sales operations make better informed decisions on campaign efficiency.</li>
-      <li>Lead a team of international developers to enhance the platform with new functionality and sales opportunities.</li>
-      <li>Worked on high-trafficked, real-time bidding application which served millions of requests per second.</li>
+      <li>Worked on bidding application to serve 300k requests per second.</li>
+      <li>Implemented various campaign filters, such as city and audio targeting, which generated $5M in 2021.</li>
+      <li>Architected and implemented a supply-sampling system to assist in campaign runtime analysis for customers.</li>
+      <li>Led and Coordinated globally mixed, international teams using organizational, clerical, and project planning best practices.</li>
     </ul>
     
-    <h3>Associate Software Engineer <span class="company">Disney Streaming Services</span></h3>
+    <section>
+      <h3>Projects</h3>
+      <h4>Registrar</h4>
+      <ul class="languages">
+        <li>scala</li>
+        <li>kafka</li>
+        <li>protobuf</li>
+        <li>http4s</li>
+        <li>fs2-kafka</li>
+      </ul>
+      <ul class="action-items">
+        <li>Architected an app to sample supply to better identify issues in delivery through kafka and a lean scala app.</li>
+      </ul>
+          
+      <h4>Historian / Forecaster</h4>
+      <ul class="languages">
+        <li>scala</li>
+        <li>play-framework</li>
+        <li>python</li>
+      </ul>
+      <ul class="action-items">
+        <li>Created application to help sales/operation teams lookup historical information to fine-tune delivery of campaigns.</li>
+        <li>Built pipeline to transform supply data into a bitmap-style database for quicker query times.</li>
+        <li>Designed and implemented the API for integration with other apps.</li>
+      </ul>
+    </section>
+    
+    <h3>Software Engineer <span class="company">Disney Streaming Services</span></h3>
     <span class="location">New York, NY</span>
     <time>Nov 2016 -- Aug 2018</time>
-    <span class="sub-title">(Previously BAMTECH Media, Previously MLB Advanced Media)</span>
+    <span class="sub-title">Previously Major League Baseball (MLB)</span>
     <ul class="languages">
       <li>java</li>
       <li>spring</li>
       <li>jersey</li>
       <li>memcached</li>
       <li>node</li>
-      <li>npm</li>
       <li>docker</li>
-      <li>git</li>
       <li>aws</li>
-      <li>jenkins</li>
       <li>groovy</li>
+      <li>graphql</li>
     </ul>
     <ul class="action-items">
-      <li>Led my team in constructing a new shared Jenkins library.</li>
+      <li>Led team in constructing a new shared CI library for organization's compliance.</li>
       <li>Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).</li>
       <li>Refactored major parts of the application into smaller micro-services.</li>
-      <li>Facilitated performance testing with QA team to vet the application before launch.</li>
+      <li>Facilitated performance testing with QA team to vet applications before launch.</li>
       <li>Fixed issues for clients in a timely manner.</li>
-      <li>Implemented extended functionality based on client requests.</li>
-      <li>Instructed new team members on the intricacies of applications.</li>
+      <li>Implemented and extended functionality based on client requests.</li>
       <li>Learned the best practices of a highly-available, large-scale application.</li>
     </ul>
+    
+    <section>
+      <h3>Projects</h3>
+      <h4>Shared Jenkins Library</h4>
+      <ul class="languages">
+        <li>jenkins</li>
+        <li>groovy</li>
+        <li>sonarqube</li>
+        <li>mvn</li>
+      </ul>
+      <ul class="action-items">
+        <li>Led the direction of implementation for team members.</li>
+        <li>Improved overall code quality with automated SonarQube analysis on pull requests.</li>
+        <li>Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.</li>
+      </ul>
+
+      <h4>Stats API</h4>
+      <ul class="languages">
+        <li>java</li>
+        <li>spring</li>
+        <li>aws</li>
+        <li>memcached</li>
+      </ul>
+      <ul class="action-items">
+        <li>API built for National Hockey League (NHL), Major League Soccer (MLS) and League of Legends.</li>
+        <li>Highly available application, accessed in a variety of devices.</li>
+        <li>Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.</li>
+      </ul>
+    </section>
 
     <h3>Software Engineer <span class="company">Pitney Bowes Software</span></h3>
     <span class="location">Boulder, CO</span>
@@ -91,10 +131,7 @@
       <li>spock</li>
       <li>postgresql</li>
       <li>jenkins</li>
-      <li>git</li>
-      <li>gitlab</li>
       <li>aws</li>
-      <li>bootstrap</li>
     </ul>
     <ul class="action-items">
       <li>Implemented a status reporting website for stakeholders utilizing the Jenkins API.</li>
@@ -104,93 +141,44 @@
       <li>Volunteered as Documentation Lead and Scrum Master to streamline efficiency of day-to-day team minutia.</li>
       <li>Created a per-revision, performance-testing and reporting system for a high-profile project.</li>
     </ul>
+    
+    <section>
+      <h3>Projects</h3>
+      <h4>Geocoding Data Report</h4>
+      <ul class="languages">
+        <li>aws</li>
+        <li>grails</li>
+        <li>groovy</li>
+        <li>postgresql</li>
+        <li>jenkins</li>
+      </ul>
+      <ul class="action-items">
+        <li>Presented product managers and other stakeholders with the most up-to-date product production status.</li>
+        <li>Automatically collected and intelligently predicted quarterly production plans for efficient planning meetings.</li>
+        <li>Provided automated information concerning specific product builds for use by sales and engineers.</li>
+      </ul>
+    </section> 
   </section>
 
   <section>
-    <h2>Projects</h2>
-    <h3>Historian / Forecaster <span class="company">Tremor Video DSP</span></h3>
-    <time>Jun 2019 -- Sep 2020</time>
-    <ul class="languages">
-      <li>scala</li>
-      <li>playframework</li>
-      <li>python</li>
-    </ul>
+    <h2>Skills</h2>
+    <h3>Languages and Databases</h3>
     <ul class="action-items">
-      <li>Created application to help sales operation team query database for historical information.</li>
-      <li>Built system to store data compactly for quicker retrieval.</li>
-      <li>Lead a team to build a forecaster based on the historical data to help make our platform competitive.</li>
-      <li>Architected the api for integration with other apps.</li>
+      <li>Scala (preferred), Java, PostgreSQL, MySQL, Vertica</li>
     </ul>
 
-    <h3>Airflow Stabilization Project <span class="company">Tremor Video DSP</span></h3>
-    <time>Sep 2018 -- Jun 2019</time>
-    <ul class="languages">
-      <li>python</li>
-      <li>airflow</li>
-      <li>pyspark</li>
-      <li>datadog</li>
-    </ul>
+    <h3>Software, Frameworks, and Utilities</h3>
     <ul class="action-items">
-      <li>Stabilized production changes through implementing software release best practices and version control.</li>
-      <li>Built framework for Data Science to easily implement machine learning algorithms in PySpark.</li>
-      <li>Developed dashboard and monitors to better understand at a glance the health and spend of the system.</li>
-    </ul>
-
-    <h3>Shared Jenkins Library <span class="company">Disney Streaming Services</span></h3>
-    <time>Jul 2017 -- Aug 2018</time>
-    <ul class="languages">
-      <li>jenkins</li>
-      <li>groovy</li>
-      <li>sonarqube</li>
-      <li>mvn</li>
-    </ul>
-    <ul class="action-items">
-      <li>Architected a shared Jenkins library to be used by all teams in organization.</li>
-      <li>Lead the direction of implementation for team members.</li>
-      <li>Mentored junior developers in software engineering best practices (pull-requests, software construction, testing).</li>
-      <li>Improved overall code quality with automated SonarQube analysis on pull requests.</li>
-      <li>Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.
-      </li>
-    </ul>
-
-    <h3>Stats API <span class="company">Disney Streaming Services</span></h3>
-    <time>Nov 2016 -- May 2017</time>
-    <ul class="languages">
-      <li>java</li>
-      <li>spring</li>
-      <li>aws</li>
-      <li>memcached</li>
-    </ul>
-    <ul class="action-items">
-      <li>API Built for National Hockey League (NHL), Major League Soccer (MLS) and LoL.</li>
-      <li>Highly available application, accessed in a variety of devices.</li>
-      <li>Provided support to clients using the API.</li>
-      <li>Used Memcached to allow for 800,000 concurrent users, at 1000 messages per second.</li>
-    </ul>
-
-    <h3>Geocoding Data Report <span class="company">Pitney Bowes Software</span></h3>
-    <time>Feb 2015 -- Nov 2016</time>
-    <ul class="languages">
-      <li>aws</li>
-      <li>beanstalk</li>
-      <li>grails</li>
-      <li>groovy</li>
-      <li>postgresql</li>
-      <li>jenkins</li>
-    </ul>
-    <ul class="action-items">
-      <li>Presented product managers and other stakeholders with the most important, up-to-date product production status in an easily consumable website.</li>
-      <li>Automatically collected and intelligently predicted quarterly production plans for efficient and minimal quarterly planning meetings.</li>
-      <li>Provided automated, up-to-date, detailed information concerning specific product information for use by customer service representatives and engineers.</li>
+      <li>Kafka, Docker, Kubernetes, Protobuf, Scala Play Framework, SonarQube, Git, GitLabCI, Jenkins, DataDog</li>
     </ul>
   </section>
-
+  
   <section>
     <h2>Education</h2>
     <h3>University of Colorado Boulder</h3>
     <span class="location">Boulder, CO</span>
     <time>Aug 2009 -- May 2014</time>
-    <span class="sub-title">Bachelor of Science, Computer Science, 3.35 GPA</span>
+    <span class="sub-title">Bachelor of Science, Computer Science</span>
     <ul class="action-items">
       <li>Atmospheric and Oceanic Science Minor</li>
       <li>Technology, Arts and Media Minor (Graduated with Honors)</li>
@@ -200,9 +188,8 @@
   </section>
   <section class="title">
     <span class="contact">
-      yesthisispatrick.com<br/>
-      patrick@yesthisispatrick.com
-    </span>
+      Golden Triangle, Denver, CO<br/>
+      patrick@yesthisispatrick.com</span>
   </section>
 </article>
 </body>
