@@ -90,5 +90,4 @@ Aug 2009 -- May 2014
 Bachelor of Science, Computer Science
 *   Atmospheric and Oceanic Science Minor
 *   Technology, Arts and Media Minor (Graduated with Honors)
-*   Dean's List, Spring 2014 and Spring 2013, College of Engineering and Applied Science
-*   Dean's List, Spring 2011, College of Arts and Science
+*   Dean's List 2011, 2013 and 2014
