@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
           btn.classList.add('clicked')
         })
     })
+
+    myBtns[0].classList.add('clicked')
 })
 
 function hideRoles(role) {
@@ -21,5 +23,4 @@ function showAll() {
 
   Array.from(document.getElementsByClassName('clicked'))
     .forEach(e => e.classList.remove('clicked'))
-
 }

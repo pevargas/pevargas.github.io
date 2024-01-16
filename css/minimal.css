@@ -1,4 +1,5 @@
-.blue  { color: #00A5C9; }
+.blue  { color: #00A5C9; } .blue-bdr  { border-left-color: #00A5C9; } .blue-bg  { background-color: #00A5C9; }
+.green { color: #00c924; } .green-bg { background-color: #00c924; }
 .white { color: #f0fcff; }
 .gray  { color: #556e74; }
 .black { color: #001418; }
@@ -207,6 +208,9 @@ h2, section section h3 {
 
 time, .contact {
   float: right;
+}
+section section time {
+  margin-right: -2.5em;
 }
 
 .company {
