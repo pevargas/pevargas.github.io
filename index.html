@@ -2,20 +2,34 @@
 <head>
   <meta charset="utf-8">
   <title>Patrick E. Vargas Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/minimal.css" media="print, screen, projection"/>
   <link rel="stylesheet" href="./css/print.css" media="print"/>
 </head>
 <body>
+
 <article>
+  <aside class="no-print socials">
+    <a href="https://www.linkedin.com/in/patrickvargas/" target="_blank" rel="nofollow" class="fa fa-linkedin"></a>
+    <a href="https://github.com/pevargas" target="_blank" rel="nofollow" class="fa fa-github"></a>
+  </aside>
+
   <section class="title">
     <h1>Patrick E. Vargas</h1>
+    <div class="btn-group no-print">
+      <button onclick="hideRoles('frontend')">Backend</button>
+      <button onclick="hideRoles('backend')" class="clicked">Full-Stack</button>
+    </div>
+
     <ul class="action-items no-print">
-      <li><a href="./vargas-resume-spring-2024.pdf">PDF Version</a></li>
+      <li><a href="./vargas-resume-spring-2024.pdf">PDF Version: Backend Role</a></li>
+      <li><a href="./vargas-resume-full-stack-spring-2024.pdf">PDF Version: Full-Stack Role</a></li>
       <li><a href="./README.md">Plain Text</a></li>
     </ul>
   </section>
 
-  <section>
+  <section class="accent-border-left">
     <h2>Experience</h2>
     <h3>Software Engineer II <span class="company">Nexxen</span></h3>
     <span class="location">New York, NY (Remote)</span>
@@ -44,29 +58,33 @@
     
     <section>
       <h3>Projects</h3>
-      <h4>Registrar</h4>
-      <ul class="languages">
-        <li>scala</li>
-        <li>kafka</li>
-        <li>protobuf</li>
-        <li>http4s</li>
-        <li>fs2-kafka</li>
-      </ul>
-      <ul class="action-items">
-        <li>Architected an app to sample supply to better identify issues in delivery through kafka and a lean scala app.</li>
-      </ul>
-          
-      <h4>Historian / Forecaster</h4>
-      <ul class="languages">
-        <li>scala</li>
-        <li>play-framework</li>
-        <li>python</li>
-      </ul>
-      <ul class="action-items">
-        <li>Created application to help sales/operation teams lookup historical information to fine-tune delivery of campaigns.</li>
-        <li>Built pipeline to transform supply data into a bitmap-style database for quicker query times.</li>
-        <li>Designed and implemented the API for integration with other apps.</li>
-      </ul>
+      <div class="backend">
+        <h4>Registrar</h4>
+        <ul class="languages">
+          <li>scala</li>
+          <li>kafka</li>
+          <li>protobuf</li>
+          <li>http4s</li>
+          <li>fs2-kafka</li>
+        </ul>
+        <ul class="action-items">
+          <li>Architected an app to sample supply to better identify issues in delivery through kafka and a lean scala app.</li>
+        </ul>
+      </div>
+
+      <div class="full-stack">
+        <h4>Historian / Forecaster</h4>
+        <ul class="languages">
+          <li>scala</li>
+          <li>play-framework</li>
+          <li>python</li>
+        </ul>
+        <ul class="action-items">
+          <li>Created application to help sales/operation teams lookup historical information to fine-tune delivery of campaigns.</li>
+          <li>Built pipeline to transform supply data into a bitmap-style database for quicker query times.</li>
+          <li>Designed and implemented the API for integration with other apps.</li>
+        </ul>
+      </div>
     </section>
     
     <h3>Software Engineer <span class="company">Disney Streaming Services</span></h3>
@@ -96,31 +114,53 @@
     
     <section>
       <h3>Projects</h3>
-      <h4>Shared Jenkins Library</h4>
-      <ul class="languages">
-        <li>jenkins</li>
-        <li>groovy</li>
-        <li>sonarqube</li>
-        <li>mvn</li>
-      </ul>
-      <ul class="action-items">
-        <li>Led the direction of implementation for team members.</li>
-        <li>Improved overall code quality with automated SonarQube analysis on pull requests.</li>
-        <li>Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.</li>
-      </ul>
+      <div class="backend">
+        <h4>Shared Jenkins Library</h4>
+        <ul class="languages">
+          <li>jenkins</li>
+          <li>groovy</li>
+          <li>sonarqube</li>
+          <li>mvn</li>
+        </ul>
+        <ul class="action-items">
+          <li>Led the direction of implementation for team members.</li>
+          <li>Improved overall code quality with automated SonarQube analysis on pull requests.</li>
+          <li>Bolstered use of library through automated JavaDoc publication and thorough wiki documentation.</li>
+        </ul>
+      </div>
 
-      <h4>Stats API</h4>
-      <ul class="languages">
-        <li>java</li>
-        <li>spring</li>
-        <li>aws</li>
-        <li>memcached</li>
-      </ul>
-      <ul class="action-items">
-        <li>API built for National Hockey League (NHL), Major League Soccer (MLS) and League of Legends.</li>
-        <li>Highly available application, accessed in a variety of devices.</li>
-        <li>Used Memcached to allow for 800k concurrent users, at 1k messages per second.</li>
-      </ul>
+      <div class="frontend">
+        <h4>Image Resolver Library</h4>
+        <ul class="languages">
+          <li>node</li>
+          <li>npm</li>
+          <li>imagemagick</li>
+          <li>express</li>
+          <li>s3</li>
+          <li>promises</li>
+          <li>bluebirdjs</li>
+        </ul>
+        <ul class="action-items">
+          <li>Designed and built image resolving microservice for League of Legends product.</li>
+          <li>Served up amalgamation of images as a 302 redirect to ease front-end bandwidth concerns.</li>
+          <li>Saved on resource throttling but utilizing AWS S3 as an image "cache"</li>
+        </ul>
+      </div>
+
+      <div class="backend">
+        <h4>Stats API</h4>
+        <ul class="languages">
+          <li>java</li>
+          <li>spring</li>
+          <li>aws</li>
+          <li>memcached</li>
+        </ul>
+        <ul class="action-items">
+          <li>API built for National Hockey League (NHL), Major League Soccer (MLS) and League of Legends.</li>
+          <li>Highly available application, accessed in a variety of devices.</li>
+          <li>Used Memcached to allow for 800k concurrent users, at 1k messages per second.</li>
+        </ul>
+      </div>
     </section>
 
     <h3>Software Engineer <span class="company">Pitney Bowes Software</span></h3>
@@ -139,43 +179,67 @@
       <li>Implemented a status reporting website for stakeholders utilizing the Jenkins API.</li>
       <li>Led my team in the transition from SVN to Git, providing tools and documentation to make the switch seamless.</li>
       <li>Built and automated a SQL testing framework for our data production pipeline.</li>
-      <li>Setup a Continuous Integration server, using Jenkins, for our project space.</li>
+      <li>Set up a Continuous Integration server, using Jenkins, for our project space.</li>
       <li>Volunteered as Documentation Lead and Scrum Master to streamline efficiency of day-to-day team minutia.</li>
       <li>Created a per-revision, performance-testing and reporting system for a high-profile project.</li>
     </ul>
     
     <section>
       <h3>Projects</h3>
-      <h4>Geocoding Data Report</h4>
-      <ul class="languages">
-        <li>aws</li>
-        <li>grails</li>
-        <li>groovy</li>
-        <li>postgresql</li>
-        <li>jenkins</li>
-      </ul>
-      <ul class="action-items">
-        <li>Presented product managers and other stakeholders with the most up-to-date product production status.</li>
-        <li>Automatically collected and intelligently predicted quarterly production plans for efficient planning meetings.</li>
-        <li>Provided automated information concerning specific product builds for use by sales and engineers.</li>
-      </ul>
+      <div>
+        <h4>Geocoding Data Report</h4>
+        <ul class="languages">
+          <li>aws-beanstalk</li>
+          <li>grails</li>
+          <li>groovy</li>
+          <li>bootstrap</li>
+          <li>postgresql</li>
+          <li>jenkins</li>
+        </ul>
+        <ul class="action-items">
+          <li>Presented product managers and other stakeholders with the most up-to-date product production status.</li>
+          <li>Automatically collected and intelligently predicted quarterly production plans for efficient planning meetings.</li>
+          <li>Provided automated information concerning specific product builds for use by sales and engineers.</li>
+        </ul>
+      </div>
     </section> 
   </section>
 
-  <section>
+  <section class="frontend accent-border-left">
+    <h2>Personal</h2>
+    <section>
+      <h3>Projects</h3>
+      <h4>Playing Cards Module</h4>
+      <span class="location"><a href="https://github.com/pevargas/playing-cards" rel="nofollow">github.com/pevargas/playing-cards</a></span>
+      <time>Jun 2016 -- Nov 2016</time>
+      <ul class="languages">
+        <li>npm</li>
+        <li>javascript</li>
+        <li>chai/mocha</li>
+      </ul>
+
+      <ul class="action-items">
+        <li>Crafted a playing-cards JavaScript module to brush up on JavaScript programming best practices.</li>
+        <li>Learned npm module management to better understand standard JavaScript distribution methodology.</li>
+        <li>Implemented Chai and Mocha to solidify the viability of the module.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="accent-border-left">
     <h2>Skills</h2>
     <h3>Languages and Databases</h3>
     <ul class="action-items">
-      <li>Scala (preferred), Java, PostgreSQL, MySQL, Vertica</li>
+      <li>Scala, Java, <span class="backend">Python, </span><span class="frontend">Node/NPM, JavaScript, </span> PostgreSQL, MySQL, Vertica</li>
     </ul>
 
     <h3>Software, Frameworks, and Utilities</h3>
     <ul class="action-items">
-      <li>Kafka, Docker, Kubernetes, Protobuf, Scala Play Framework, SonarQube, Git, Jenkins, DataDog, Grafana</li>
+      <li>Kafka, Docker, Kubernetes, AWS, Protobuf, <span class="frontend">Scala Play Framework, Mocha/Chai, </span>SonarQube, Git, Jenkins, DataDog, Grafana</li>
     </ul>
   </section>
   
-  <section>
+  <section class="accent-border-left">
     <h2>Education</h2>
     <h3>University of Colorado Boulder</h3>
     <span class="location">Boulder, CO</span>
@@ -191,5 +255,8 @@
     <span class="contact">Golden Triangle, Denver, CO<br/>patrick@yesthisispatrick.com</span>
   </section>
 </article>
+
+<script src="./script/switch.js" type="text/javascript"></script>
+<script type="text/javascript">window.onload = hideRoles('frontend')</script>
 </body>
 </html>
