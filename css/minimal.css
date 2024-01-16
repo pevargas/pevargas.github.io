@@ -1,5 +1,5 @@
-.blue  { color: #00A5C9; } .blue-bdr  { border-left-color: #00A5C9; } .blue-bg  { background-color: #00A5C9; }
-.green { color: #00c924; } .green-bg { background-color: #00c924; }
+.blue  { color: #00A5C9; }
+.green { color: #00c924; }
 .white { color: #f0fcff; }
 .gray  { color: #556e74; }
 .black { color: #001418; }
@@ -119,6 +119,10 @@ h1:before {
     margin-top: 0.3em;
 }
 
+h1.green-logo:before {
+  background-image: url(../images/vargas-logo-green.png);
+}
+
 h2 {
   margin-top: 0.1em;
   color: #001418;
@@ -228,7 +232,7 @@ section section time {
 }
 
 .btn-group button {
-  background-color: #00A5C9;
+  background-color: #00c924;
   border: 1px solid #f0fcff;
   color: #f0fcff;
   padding: 10px 24px; /* Some padding */
@@ -238,6 +242,7 @@ section section time {
 
 .btn-group button:not(:last-child) {
   border-right: none; /* Prevent double borders */
+  background-color: #00A5C9!important;
 }
 
 .btn-group:after {
@@ -254,7 +259,8 @@ section section time {
 }
 
 .clicked {
-  background-color: #556e74!important;
+  background-color: #556e74;
+  opacity: 0.8;
   cursor: not-allowed!important;
 }
 
@@ -271,7 +277,7 @@ aside.socials {
   text-decoration: none;
   border-radius: 50%;
   color: #f0fcff!important;
-  background: #00A5C9;
+  background-color: #00A5C9;
 }
 
 .fa:hover {
