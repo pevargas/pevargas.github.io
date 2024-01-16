@@ -213,3 +213,63 @@ time, .contact {
   color: #556e74;
   font-weight: normal;
 }
+
+.hide {
+  display: none;
+}
+
+.btn-group {
+  float: right;
+  display: block;
+}
+
+.btn-group button {
+  background-color: #00A5C9;
+  border: 1px solid #001418;
+  color: #f0fcff;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group button:hover {
+  opacity:0.8;
+}
+
+.btn-group button.clicked:hover {
+  opacity: 1!important;
+}
+
+.clicked {
+  background-color: #556e74!important;
+  cursor: not-allowed!important;
+}
+
+aside.socials {
+  float:right;
+  padding: 1em;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #f0fcff!important;
+  background: #00A5C9;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
